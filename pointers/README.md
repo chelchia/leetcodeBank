@@ -1,5 +1,5 @@
 # Pointer-related approaches
-#### Two-pointer
+### Two-pointer
 Impt: Probably the most common technique tested in interviews, together with DP, search (DFS/BFS) and hash tables.
 
 Good for one-pass solutions to linear DS (array/linked list) questions. The general idea involves keeping track of two "pointers", 
@@ -7,12 +7,12 @@ most often to bound the start and end of a range (as in sliding window). Another
 "adventurous" pointer, which searches for the next target element, and the other pointer as the "memory" pointer, which keeps track 
 of some important index which has been traversed before (see question P1 for an example).
 
-#### Sliding window
+### Sliding window
 Very powerful in certain array/string parsing questions, often linear in time complexity. If the question requires examining a 
 "window" of elements at a time, consider using sliding window. Quite commonly used in questions like "Longest substring with XXXX" 
 where XXXX is some criteria. See question P5 for example.
 
-#### Floyd's algorithm aka the Tortoise and the Hare
+### Floyd's algorithm aka the Tortoise and the Hare
 Click [here](https://medium.com/@tuvo1106/the-tortoise-and-the-hare-floyds-algorithm-87badf5f7d41) for detailed explanation.
 
 The most common application is linked list cycle detection (see question P4). Imagine a slow and a fast runner. The slow runner 
@@ -23,7 +23,7 @@ Why does this work? The fast runner increases the distance between himself and t
 If there is a cycle, eventually the distance between them will be exactly the length of the (circular) list, which means they are on 
 the same node! O(n) time, O(1) space.
 
-#### Question bank
+### Question bank
 P1. In-place removal of duplicates from sorted array
 - Easy
 - Summary: Given a sorted integer array, remove the duplicates in-place.
