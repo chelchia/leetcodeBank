@@ -22,3 +22,4 @@ QS1. [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points
 - Solution 3: O(n) with quickselect.
 
 [Python](https://github.com/chelchia/leetcodeBank/blob/main/quickselect/qs1.py)
+[C++, using multimap](https://github.com/chelchia/leetcodeBank/blob/main/quickselect/qs1.cpp)
